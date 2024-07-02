@@ -1,0 +1,241 @@
+/* ====== Common styles ======*/
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background: #fafafa;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ====== Common styles ======*/
+
+/* ====== Page-header styles ======*/
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #fd9222;
+}
+
+/* ====== Page-header styles ======*/
+
+/* ====== Hero styles ======*/
+.main-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.buy-now-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #fd9222;
+  border-radius: 100px;
+}
+
+.buy-now-btn:hover,
+.buy-now-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.how-made-link {
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 100px;
+  /* color: #fff; */
+}
+
+.how-made-link:hover,
+.how-made-link:focus {
+  color: #fd9222;
+}
+
+.scroll-down-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  /* color: #fff; */
+}
+.scroll-down-link:hover,
+.scroll-down-link:focus {
+  color: #fd9222;
+}
+/* ====== Hero styles ======*/
+
+/* ===== Benefit Section styles =====*/
+.benefits-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  /* color: #fff; */
+}
+
+.benefits-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  /* color: rgba(255, 255, 255, 0.7); */
+}
+/* ===== Benefit Section styles =====*/
+
+/*===== Ingridients Section styles =====  */
+.ingridients-section-title {
+}
+
+.ingridients-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.ingridients-list-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+/*===== Ingridients Section styles =====  */
+
+/* =========== How Made Section styles =========== */
+.how-made-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #111;
+}
+
+.how-made-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+/* =========== How Made Section styles =========== */
+
+/*=========== Reviews Section Styles  =========== */
+.reviews-list-fullname {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.reviews-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.leave-review-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+  background-color: #ffffff;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+}
+
+.leave-review-btn:hover,
+.leave-review-btn:focus {
+  color: #fff;
+  background: #fd9222;
+}
+
+/*=========== Reviews Section Styles  =========== */
+
+/* =========== Footer Styles =========== */
+
+.contact-block {
+  font-style: normal;
+}
+.page-footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  /* color: #fff; */
+}
+
+.contact-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  /* color: #fff; */
+}
+
+.contact-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  /* color: #fff; */
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #fd9222;
+}
+
+.page-footer-menu-link {
+  /* color: #ffffff; */
+}
+
+/* =========== Footer Styles =========== */
