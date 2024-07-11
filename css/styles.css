@@ -1,8 +1,19 @@
 /* ====== Common styles ======*/
+h1.h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -24,6 +35,14 @@ body {
   background: #fafafa;
 }
 
+.container {
+  width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .section-title {
   font-size: 24px;
   font-weight: 600;
@@ -31,11 +50,31 @@ body {
   letter-spacing: -0.03em;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 24px;
 }
 
 /* ====== Common styles ======*/
 
 /* ====== Page-header styles ======*/
+
+.hero-container {
+  padding-top: 381px;
+  padding-bottom: 40px;
+  padding-right: 56px;
+  padding-left: 56px;
+  background-color: #111;
+}
 
 .logo {
   font-weight: 700;
@@ -49,6 +88,9 @@ body {
 }
 
 .menu-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,18 +106,26 @@ body {
 
 /* ====== Hero styles ======*/
 .main-title {
+  max-width: 462px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 32px;
 }
 
 .buy-now-btn {
+  min-width: 144px;
+  height: 45px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-weight: 600;
   font-size: 14px;
   color: #fff;
   background: #fd9222;
   border-radius: 100px;
+  border: none;
 }
 
 .buy-now-btn:hover,
@@ -88,7 +138,7 @@ body {
   font-weight: 600;
   font-size: 14px;
   border-radius: 100px;
-  /* color: #fff; */
+  color: #fff;
 }
 
 .how-made-link:hover,
@@ -101,7 +151,7 @@ body {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
-  /* color: #fff; */
+  color: #fff;
 }
 .scroll-down-link:hover,
 .scroll-down-link:focus {
@@ -165,6 +215,21 @@ body {
 /* =========== How Made Section styles =========== */
 
 /*=========== Reviews Section Styles  =========== */
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.reviews-list-item {
+  width: calc((100% - 56px) / 3);
+}
+
 .reviews-list-fullname {
   font-weight: 600;
   font-size: 18px;
