@@ -43,6 +43,18 @@ body {
   margin-left: auto;
 }
 
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
 .section-title {
   font-size: 24px;
   font-weight: 600;
@@ -166,6 +178,15 @@ body {
   /* color: #fff; */
 }
 
+.benefits-list {
+  display: flex;
+  column-gap: 88px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 2 * 88px) / 3);
+}
+
 .benefits-list-text {
   font-weight: 400;
   font-size: 14px;
@@ -175,7 +196,19 @@ body {
 /* ===== Benefit Section styles =====*/
 
 /*===== Ingridients Section styles =====  */
-.ingridients-section-title {
+
+.ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 19px;
+}
+
+.ingredients-list-item {
+  width: calc((100% - 57px) / 4);
+}
+
+.ingredients-list-img {
+  margin-bottom: 36px;
 }
 
 .ingridients-description {
@@ -198,19 +231,45 @@ body {
 /*===== Ingridients Section styles =====  */
 
 /* =========== How Made Section styles =========== */
+
+.how-made {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .how-made-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33333;
   color: #111;
+  margin-bottom: 28px;
 }
 
+.how-made-list {
+  list-style: disc;
+}
 .how-made-list-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111;
+}
+
+.how-made-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.how-made-content-wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+
+.how-made-text-wrapper {
+  flex-grow: 1;
+  padding: 32px;
+  border-radius: 15px;
+  background: #fff;
 }
 /* =========== How Made Section styles =========== */
 
